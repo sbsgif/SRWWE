@@ -77,7 +77,7 @@
 .flipdown .rotor-group {
   position: relative;
   float: left;
-  padding-right: 30px;
+  padding-right: 20px;
 }
 
 .flipdown .rotor-group:last-child {
@@ -111,7 +111,7 @@
   content: '';
   position: absolute;
   bottom: 20px;
-  left: 115px;
+  left: 100px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -120,8 +120,8 @@
 .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
   content: '';
   position: absolute;
-  bottom: 50px;
-  left: 115px;
+  bottom: 40px;
+  left: 100px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -130,7 +130,7 @@
 .flipdown .rotor {
   position: relative;
   float: left;
-  width: 50px;
+  width: 40px;
   height: 80px;
   margin: 0px 5px 0px 0px;
   border-radius: 4px;
@@ -147,14 +147,14 @@
 .flipdown .rotor-bottom {
   overflow: hidden;
   position: absolute;
-  width: 50px;
+  width: 40px;
   height: 40px;
 }
 
 .flipdown .rotor-leaf {
   z-index: 1;
   position: absolute;
-  width: 50px;
+  width: 40px;
   height: 80px;
   transform-style: preserve-3d;
   transition: transform 0s;
@@ -169,7 +169,7 @@
 .flipdown .rotor-leaf-rear {
   overflow: hidden;
   position: absolute;
-  width: 50px;
+  width: 40px;
   height: 40px;
   margin: 0;
   transform: rotateX(0deg);
@@ -205,7 +205,7 @@
   position: absolute;
   bottom: 0px;
   left: 0px;
-  width: 50px;
+  width: 40px;
   height: 40px;
   border-radius: 0px 0px 4px 4px;
 }
@@ -213,7 +213,7 @@
 @media (max-width: 550px) {
 
   .flipdown {
-    width: 312px;
+    width: 350px;
     height: 70px;
   }
 
@@ -229,11 +229,11 @@
   .flipdown .rotor-top,
   .flipdown .rotor-bottom,
   .flipdown .rotor:after {
-    width: 30px;
+    width: 25px;
   }
 
   .flipdown .rotor-group {
-    padding-right: 20px;
+    padding-right: 10px;
   }
 
   .flipdown .rotor-group:last-child {
@@ -243,12 +243,12 @@
   .flipdown .rotor-group-heading:before {
     font-size: 0.8rem;
     height: 20px;
-    line-height: 20px;
+    line-height: 25px;
   }
 
   .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before,
   .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
-    left: 69px;
+    left: 63px;
   }
 
   .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before {
